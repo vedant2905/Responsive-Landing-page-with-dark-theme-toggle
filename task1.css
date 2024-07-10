@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --mainColor: #64bcf4;
+  --mainColor: #68bef3;
   --hoverColor: #5bacdf;
-  --backgroundColor: #f1f8fc;
+  --backgroundColor: #efefe5;
   --darkOne: #312f3a;
   --darkTwo: #45424b;
   --lightOne: #919191;
@@ -30,6 +30,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: blanchedalmond;
 }
 
 .stop-scrolling {
@@ -61,7 +62,7 @@ a {
   position: relative;
   max-width: 1296px;
   width: 100%;
-  margin: 0 auto;
+  margin: 40px;
   padding-top: 0%;
   z-index: 10;
 }
@@ -393,4 +394,108 @@ header .container {
   .main-cont .btn {
     font-size: 0.8rem;
   }
+}
+
+.small-container{
+ 
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.small-container{
+  max-width: 1080px;
+  align-items: center;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-4{
+  display: flexbox;
+  flex-direction: column;
+  flex-basis: 35%;
+  padding-left:10px;
+  min-width: 200px;
+  margin-bottom: 40px;
+  transition: transform 0.5s;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 55px;
+ 
+}
+.col-4 img{
+  width: 60%;
+  display: flexbox
+  
+}
+
+.title{
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+.title::after{
+  content: '';
+  background: #ff523b;
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+ 
+
+  transform: translateX(-50%);
+
+}
+h4{
+  color: #555;
+  font-weight: normal;
+}
+.col-4 p{
+  font-size: 14px;
+}
+.col-4:hover{
+  transform: translateY(-5px);
+
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+  }
+
+.testimonial {
+        text-align: center;
+        padding: 10px;
+        background-color: #edeef0;
+        border: 1px solid #e9ecef;
+        border-radius: 5px;
+        margin: 55px;
+}
+
+.testimonial img {
+  width: 100px;  
+  height: 100px;  
+  border-radius: 50%;  
+  border: 3px solid #ebeff1;
+  padding: 5px;
+  background-color: white;
+  object-fit: cover; 
+}
+
+.testimonial p {
+        margin: 10px 0;
+       color: brown;
+}
+.product{
+  text-align: center;
+}
+.footer{
+  height: 350px;
+  width: 100%;
 }

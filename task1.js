@@ -48,4 +48,14 @@ function events() {
   });
 }
 
-events();
+ events();
+
+// $(document).ready(function(){
+//   $('#testimonialsCarousel').carousel({
+//       interval: 2000
+//   });
+// });
+
+// events();
+
+
